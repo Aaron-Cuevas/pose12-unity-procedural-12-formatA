@@ -1,14 +1,14 @@
 # Unity: rig procedural (12 articulaciones) desde CSV `frame,index,x,y,z`
 
-Este proyecto construye un esqueleto 3D procedural en Unity a partir de datos numéricos de pose. La intención es validar de forma directa el paso:
+Este proyecto construye un esqueleto 3D procedural en Unity a partir de datos numéricos de pose. La intención es validar la conversión de un array de 12x3 por frame, hacia transformaciones en Unity, teniendo finalmente un esqueleto visible y animado.
 
-**CSV (12×3 por frame) → Transformaciones en Unity → Esqueleto visible y animado**
+
 
 El esqueleto se renderiza como:
 - **Articulaciones**: esferas
 - **Huesos**: cilindros orientados y escalados entre pares de articulaciones
 
-No hay retargeting a un humanoide ni skinning. Aquí se comprueba lo fundamental: que los puntos 3D son suficientes para reconstruir pose y continuidad temporal.
+No hay retargeting a un humanoide ni skinning. Es comprobado que los puntos 3D son suficientes para construir una pose en Unity
 
 ---
 
